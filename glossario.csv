@@ -1,6 +1,6 @@
 ,original,abreviado,explicacao
-0,d_cd_ibge,Q0,CódigodoIBGEdomunicípio
-1,d_cod_familiar_fam,Q1,CódigoFamiliar
+0,d_cd_ibge,Q0,Código do IBGE do município
+1,d_cod_familiar_fam,Q1,Código Familiar
 2,d_dat_cadastramento_fam,Q2,Data do cadastramento da Família - formato DD/MM/AAAA 
 3,d_dat_atual_fam,Q3,Data da última atualização da família no formato DD/MM/AAAA
 4,d_cod_est_cadastral_fam,Q4,Estado cadastral da família (1 - Em cadastramento;2 - Sem Registro Civil; 3 - Cadastro; 4 - Excluído)
@@ -20,36 +20,36 @@
 18,d_cod_material_domic_fam,Q18,Material predominante nas paredes externas do domicílio (1 - Alvenaria/tijolo com revestimento; 2 - Alvenaria/tijolo sem revestimento; 3 - Madeira aparelhada; 4 - Taipa revestida; 5 - Taipa não revestida; 6 - Madeira aproveitada; 7 - Palha; 8 - Outro Material)
 19,d_cod_agua_canalizada_fam,Q19,Se o domicílio tem água encanada (1 - Sim; 2 - Não)
 20,d_cod_abaste_agua_domic_fam,Q20,Forma de abastecimento de água (1 - Rede geral de distribuição; 2 - Poço ou nascente; 3 - Cisterna; 4 - Outra forma)
-21,d_cod_banheiro_domic_fam,Q21,
-22,d_cod_escoa_sanitario_domic_fam,Q22,
-23,d_cod_destino_lixo_domic_fam,Q23,
-24,d_cod_iluminacao_domic_fam,Q24,
-25,d_cod_calcamento_domic_fam,Q25,
-26,d_cod_familia_indigena_fam,Q26,
-27,d_cod_povo_indigena_fam,Q27,
-28,d_nom_povo_indigena_fam,Q28,
-29,d_cod_indigena_reside_fam,Q29,
-30,d_cod_reserva_indigena_fam,Q30,
-31,d_nom_reserva_indigena_fam,Q31,
-32,d_ind_familia_quilombola_fam,Q32,
-33,d_cod_comunidade_quilombola_fam,Q33,
-34,d_nom_comunidade_quilombola_fam,Q34,
-35,d_qtd_pessoas_domic_fam,Q35,
-36,d_qtd_familias_domic_fam,Q36,
-37,d_qtd_pessoa_inter_0_17_anos_fam,Q37,
-38,d_qtd_pessoa_inter_18_64_anos_fam,Q38,
-39,d_qtd_pessoa_inter_65_anos_fam,Q39,
-40,d_val_desp_energia_fam,Q40,
-41,d_val_desp_agua_esgoto_fam,Q41,
-42,d_val_desp_gas_fam,Q42,
-43,d_val_desp_alimentacao_fam,Q43,
-44,d_val_desp_transpor_fam,Q44,
-45,d_val_desp_aluguel_fam,Q45,
-46,d_val_desp_medicamentos_fam,Q46,
-47,d_nom_estab_assist_saude_fam,Q47,
-48,d_cod_eas_fam,Q48,
-49,d_nom_centro_assist_fam,Q49,
-50,d_cod_centro_assist_fam,Q50,
+21,d_cod_banheiro_domic_fam,Q21,Existência de banheiro (1 - Sim; 2 - Não)
+22,d_cod_escoa_sanitario_domic_fam,Q22,Forma de escoamento sanitário (1 - Rede coletora de esgoto ou pluvial; 2 - Fossa séptica; 3 - Fossa rudimentar; 4 - Vala a céu aberto; 5 - Direto para um rio lago ou mar; 6 - Outra forma)
+23,d_cod_destino_lixo_domic_fam,Q23,Forma de coleta do lixo (1 - É coletado diretamente ; 2 - É coletado indiretamente; 3 - É queimado ou enterrado na propriedade; 4 - É jogado em terreno baldio ou logradouro (rua avenida etc.); 5 - É jogado em rio ou mar; 6 - Tem outro destino)
+24,d_cod_iluminacao_domic_fam,Q24,Tipo de iluminação (1 - Elétrica com medidor próprio; 2 - Elétrica com medidor comunitário; 3 - Elétrica sem medidor; 4 - Óleo querosene ou gás; 5 - Vela; 6 - Outra forma)
+25,d_cod_calcamento_domic_fam,Q25,Calçamento (1 - Total; 2 - Parcial; 3 - Não existe)
+26,d_cod_familia_indigena_fam,Q26,Família indígena (1 - Sim; 2 - Não)
+27,d_cod_povo_indigena_fam,Q27,Código de povo indígena: campo numérico de 4 posições formato NNNN
+28,d_nom_povo_indigena_fam,Q28,Nome do povo indígena 
+29,d_cod_indigena_reside_fam,Q29,Reside em reserva indígena (1 - Sim; 2 - Não)
+30,d_cod_reserva_indigena_fam,Q30,Código da reserva indígena: campo de 4 posições no formato NNNN
+31,d_nom_reserva_indigena_fam,Q31,Nome da reserva indígena
+32,d_ind_familia_quilombola_fam,Q32,Não sabe(reserva indígena da família) (0 - Opção não marcada; 1 - Opção marcada)
+33,d_cod_comunidade_quilombola_fam,Q33,Código da comunidade quilombola: campo de 4 posições no formato NNNN
+34,d_nom_comunidade_quilombola_fam,Q34,Nome da comunidade quilombola
+35,d_qtd_pessoas_domic_fam,Q35,Quantidade de pessoas no domicílio 
+36,d_qtd_familias_domic_fam,Q36,Quantidade de famílias no domicílio 
+37,d_qtd_pessoa_inter_0_17_anos_fam,Q37,Quantidade de pessoas internadas faixa 0-17 anos
+38,d_qtd_pessoa_inter_18_64_anos_fam,Q38,Quantidade de pessoas internadas faixa 18-64 anos
+39,d_qtd_pessoa_inter_65_anos_fam,Q39,Quantidade de pessoas internadas faixa 65 anos ou mais 
+40,d_val_desp_energia_fam,Q40,Valor de despesas com energia. Campo no formato NNNNN (não existem casas decimais) 
+41,d_val_desp_agua_esgoto_fam,Q41,Valor de despesas com água. Campo no formato NNNNN (não existem casas decimais) 
+42,d_val_desp_gas_fam,Q42,Valor de despesas com gás. Campo no formato NNNNN (não existem casas decimais) 
+43,d_val_desp_alimentacao_fam,Q43,Valor de despesas com alimentação. Campo no formato NNNNN (não existem casas decimais) 
+44,d_val_desp_transpor_fam,Q44,Valor de despesas com transporte. Campo no formato NNNNN (não existem casas decimais)
+45,d_val_desp_aluguel_fam,Q45,Valor de despesas com aluguel. Campo no formato NNNNN (não existem casas decimais)
+46,d_val_desp_medicamentos_fam,Q46,Valor de despesas com medicamentos. Campo no formato NNNNN (não existem casas decimais)
+47,d_nom_estab_assist_saude_fam,Q47,Nome do estabelecimento EAS/MS 
+48,d_cod_eas_fam,Q48,Código do estabelecimento EAS/MS 
+49,d_nom_centro_assist_fam,Q49,Nome do CRAS/CREAS
+50,d_cod_centro_assist_fam,Q50,Código do CRAS/CREAS
 51,d_ind_parc_mds_fam,Q51,
 52,d_ref_cad,Q52,
 53,d_ref_pbf,Q53,
