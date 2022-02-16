@@ -25,23 +25,23 @@
 23,d_cod_destino_lixo_domic_fam,Q23,Forma de coleta do lixo (1 - É coletado diretamente ; 2 - É coletado indiretamente; 3 - É queimado ou enterrado na propriedade; 4 - É jogado em terreno baldio ou logradouro (rua avenida etc.); 5 - É jogado em rio ou mar; 6 - Tem outro destino),moradia
 24,d_cod_iluminacao_domic_fam,Q24,Tipo de iluminação (1 - Elétrica com medidor próprio; 2 - Elétrica com medidor comunitário; 3 - Elétrica sem medidor; 4 - Óleo querosene ou gás; 5 - Vela; 6 - Outra forma),moradia
 25,d_cod_calcamento_domic_fam,Q25,Calçamento (1 - Total; 2 - Parcial; 3 - Não existe),moradia
-26,d_cod_familia_indigena_fam,Q26,Família indígena (1 - Sim; 2 - Não),indigena
-27,d_cod_povo_indigena_fam,Q27,Código de povo indígena: campo numérico de 4 posições formato NNNN,indigena
-28,d_nom_povo_indigena_fam,Q28,Nome do povo indígena,indigena
-29,d_cod_indigena_reside_fam,Q29,Reside em reserva indígena (1 - Sim; 2 - Não),indigena
-30,d_cod_reserva_indigena_fam,Q30,Código da reserva indígena: campo de 4 posições no formato NNNN,indigena
-31,d_nom_reserva_indigena_fam,Q31,Nome da reserva indígena,indigena
-32,d_ind_familia_quilombola_fam,Q32,Não sabe(reserva indígena da família) (0 - Opção não marcada; 1 - Opção marcada),indigena
-33,d_cod_comunidade_quilombola_fam,Q33,Código da comunidade quilombola: campo de 4 posições no formato NNNN,quilombola
-34,d_nom_comunidade_quilombola_fam,Q34,Nome da comunidade quilombola,quilombola
-35,d_qtd_pessoas_domic_fam,Q35,Quantidade de pessoas no domicílio,moradia
-36,d_qtd_familias_domic_fam,Q36,Quantidade de famílias no domicílio,moradia
-37,d_qtd_pessoa_inter_0_17_anos_fam,Q37,Quantidade de pessoas internadas faixa 0-17 anos,saude
-38,d_qtd_pessoa_inter_18_64_anos_fam,Q38,Quantidade de pessoas internadas faixa 18-64 anos,saude
-39,d_qtd_pessoa_inter_65_anos_fam,Q39,Quantidade de pessoas internadas faixa 65 anos ou mais,saude
-40,d_val_desp_energia_fam,Q40,Valor de despesas com energia. Campo no formato NNNNN (não existem casas decimais),moradia
-41,d_val_desp_agua_esgoto_fam,Q41,Valor de despesas com água. Campo no formato NNNNN (não existem casas decimais),moradia
-42,d_val_desp_gas_fam,Q42,Valor de despesas com gás. Campo no formato NNNNN (não existem casas decimais),moradia
+26,d_cod_familia_indigena_fam,Q26,Família indígena (1 - Sim; 2 - Não),
+27,d_cod_povo_indigena_fam,Q27,Código de povo indígena: campo numérico de 4 posições formato NNNN,
+28,d_nom_povo_indigena_fam,Q28,Nome do povo indígena,
+29,d_cod_indigena_reside_fam,Q29,Reside em reserva indígena (1 - Sim; 2 - Não),
+30,d_cod_reserva_indigena_fam,Q30,Código da reserva indígena: campo de 4 posições no formato NNNN,
+31,d_nom_reserva_indigena_fam,Q31,Nome da reserva indígena,
+32,d_ind_familia_quilombola_fam,Q32,Não sabe(reserva indígena da família) (0 - Opção não marcada; 1 - Opção marcada),
+33,d_cod_comunidade_quilombola_fam,Q33,Código da comunidade quilombola: campo de 4 posições no formato NNNN,
+34,d_nom_comunidade_quilombola_fam,Q34,Nome da comunidade quilombola,
+35,d_qtd_pessoas_domic_fam,Q35,Quantidade de pessoas no domicílio,
+36,d_qtd_familias_domic_fam,Q36,Quantidade de famílias no domicílio,
+37,d_qtd_pessoa_inter_0_17_anos_fam,Q37,Quantidade de pessoas internadas faixa 0-17 anos,
+38,d_qtd_pessoa_inter_18_64_anos_fam,Q38,Quantidade de pessoas internadas faixa 18-64 anos,
+39,d_qtd_pessoa_inter_65_anos_fam,Q39,Quantidade de pessoas internadas faixa 65 anos ou mais,
+40,d_val_desp_energia_fam,Q40,Valor de despesas com energia. Campo no formato NNNNN (não existem casas decimais),
+41,d_val_desp_agua_esgoto_fam,Q41,Valor de despesas com água. Campo no formato NNNNN (não existem casas decimais),
+42,d_val_desp_gas_fam,Q42,Valor de despesas com gás. Campo no formato NNNNN (não existem casas decimais),
 43,d_val_desp_alimentacao_fam,Q43,Valor de despesas com alimentação. Campo no formato NNNNN (não existem casas decimais),
 44,d_val_desp_transpor_fam,Q44,Valor de despesas com transporte. Campo no formato NNNNN (não existem casas decimais),
 45,d_val_desp_aluguel_fam,Q45,Valor de despesas com aluguel. Campo no formato NNNNN (não existem casas decimais),
