@@ -1,0 +1,42 @@
+
+# 0: institucional
+# 1: família
+# 2: pessoa
+# 3: responsável familiar (rf) ou membro
+
+# Q0: 0_cod_ibge_mun_res / d_cd_ibge
+# Q1: 1_cod_ufam / d_cod_familiar_fam
+# Q2: 1_data_cad / d_dat_cadastramento_fam
+# Q3: 1_data_atual_cad / d_dat_atual_fam
+# Q4: 1_sit_cad / d_cod_est_cadastral_fam
+# Q5: 1_forma_coleta / d_cod_forma_coleta_fam
+# Q6: 1_data_entrev / d_dta_entrevista_fam
+# Q7: 1_bairro / d_nom_localidade_fam
+# Q8: 1_rem_media / d_vlr_renda_media_fam
+# Q9: 1_rem_faixa / d_fx_rfpc
+# Q10: 1_rem_total / d_vlr_renda_total_fam
+# Q11: 1_pbf / d_marc_pbf
+# Q12: 1_meses_cad_desat / d_qtde_meses_desat_cat
+# Q47: 0_nome_eas / d_nom_estab_assist_saude_fam
+# Q48: 0_cod_eas / d_cod_eas_fam
+# Q49: 0_nome_cras / d_nom_centro_assist_fam
+# Q50: 0_cod_cras / d_cod_centro_assist_fam
+# Q52: Q52 / d_ref_cad
+# Q53: Q53 / d_ref_pbf
+# Q54: 2_cod_fam / p_cod_familiar_fam
+# Q55: 2_sit_cad / p_cod_est_cadastral_memb
+# Q57: 2_nis / p_num_nis_pessoa_atual
+# Q58: 2_sexo / p_cod_sexo_pessoa
+# Q59: 2_data_nasc / p_dta_nasc_pessoa
+# Q60: 3_rel_parent_rf / p_cod_parentesco_rf_pessoa
+# Q107: 3_cod_prof / p_cod_principal_trab_memb
+# Q108: 3_rem_emp / p_val_remuner_emprego_memb
+# Q109: 3_trab_rem_12meses / p_cod_trabalho_12_meses_memb
+# Q110: 3_qtde_12meses / p_qtd_meses_12_meses_memb
+# Q111: 3_rem_12meses / p_val_renda_bruta_12_meses_memb
+# Q112: 3_rem_doacao / p_val_renda_doacao_memb
+# Q113: 3_rem_aposent / p_val_renda_aposent_memb
+# Q114: 3_rem_segDes / p_val_renda_seguro_desemp_memb
+# Q115: 3_rem_pensAlim / p_val_renda_pensao_alimen_memb
+# Q116: 3_rem_outras / p_val_outras_rendas_memb
+# Q165: 0_nome_ibge_mun_res
